@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bellcoww
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+After cloning this project, run 'npm install' to install all the dependencies. Run 'ng serve' to serve this project on a development server.
+This project in using Angular - 8.3.20
+>>>>>>> 19bc174414f28fb13814e70b8fac4c84cd5d361b
