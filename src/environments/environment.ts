@@ -6,6 +6,10 @@ export const environment = {
   production: false
 };
 
+export const CMS_API_URL = 'https://bellcoww.tech/?rest_route=/wp/v2';
+
+export const API_ENDPOINTS = {servicesPage:'/pages/9'};
+
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

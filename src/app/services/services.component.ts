@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CmsService } from '../cms.service';
+import { ServicesPage } from '../models/services-page';
 
 declare var servicesBusinessStepsTabs:any;
 @Component({
@@ -8,10 +10,15 @@ declare var servicesBusinessStepsTabs:any;
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private cmsService:CmsService) { }
 
   ngOnInit() {
     servicesBusinessStepsTabs();
+    this.cmsService.fetchServicesPageContent().subscribe((result)=>{
+      this.content = result.acf;
+    });
   }
+
+  content:ServicesPage;
 
 }
